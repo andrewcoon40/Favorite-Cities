@@ -14,6 +14,7 @@
 		AF2AD97623C8DC3E00F74ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2AD97423C8DC3E00F74ECB /* Main.storyboard */; };
 		AF2AD97823C8DC4000F74ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2AD97723C8DC4000F74ECB /* Assets.xcassets */; };
 		AF2AD97B23C8DC4000F74ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2AD97923C8DC4000F74ECB /* LaunchScreen.storyboard */; };
+		AF2AD98323C8DF4200F74ECB /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2AD98223C8DF4200F74ECB /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AF2AD97723C8DC4000F74ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2AD97A23C8DC4000F74ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2AD97C23C8DC4000F74ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2AD98223C8DF4200F74ECB /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				AF2AD96C23C8DC3E00F74ECB /* AppDelegate.swift */,
 				AF2AD96E23C8DC3E00F74ECB /* SceneDelegate.swift */,
+				AF2AD98223C8DF4200F74ECB /* City.swift */,
 				AF2AD97023C8DC3E00F74ECB /* MasterViewController.swift */,
 				AF2AD97223C8DC3E00F74ECB /* DetailViewController.swift */,
 				AF2AD97423C8DC3E00F74ECB /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2AD96D23C8DC3E00F74ECB /* AppDelegate.swift in Sources */,
+				AF2AD98323C8DF4200F74ECB /* City.swift in Sources */,
 				AF2AD96F23C8DC3E00F74ECB /* SceneDelegate.swift in Sources */,
 				AF2AD97123C8DC3E00F74ECB /* MasterViewController.swift in Sources */,
 				AF2AD97323C8DC3E00F74ECB /* DetailViewController.swift in Sources */,

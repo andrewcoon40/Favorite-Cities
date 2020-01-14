@@ -17,12 +17,26 @@ class DetailViewController: UIViewController {
     
     var detailItem: City? {
         didSet {
+            // update the view
+            configureView()
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    func configureView() {
+        // Update the user interface for the detail item
+        if let city = self.detailItem {
+            if cityTextField != nil {
+                cityTextField.text = city.name
+                stateTextField.text = city.state
+                populationTextField.text = String(city.population)
+                imageView.image = UIImage(data: city.image)
+            }
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
